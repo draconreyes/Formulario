@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="estilo.css">
+    <script type="text/javascript" src="script.js">
+    </script>
+  </head>
+  <body>
+    <label>Nombre</label>
+    <input type="text" id='nombre' value="">
+    <br> Masculino <input type="radio" name="respuesta" value="si"  id="pregunta_M"/>
+    <br> Femenino<input type="radio" name="respuesta" value="no"  id="pregunta_F"/>
+    <br> Otros<input type="radio" name="respuesta" value="nsnc"  id="Otros"/>
+    <br>
+    <select name="Ciudades" id="Ciudad">
+      <option value="Bogota">Bogota </option>
+      <option value="Cali">Cali</option>
+      <option value="Buga">Buga </option>
+      <option value="Ibague">Ibague </option>
+      <option value="Pereira">Pereira </option>
+      <option value="Barranquilla">Barranquilla </option>
+    </select>
+    <br> <button type="button" name="button" onclick="EvaluarDatos()">Enviar datos</button>
+    <br> <textarea rows="4" cols="50" id='area'>
+
+    </textarea>
+  </body>
+</html>
